@@ -13,39 +13,39 @@
 
 <body>
 
-  <header class="header">
-    <div class="container">
-      <div class="header__inner">
-        <div class="header__logo">
-          <a class="header__logo-link" href="#">
-            <img src="images/header-logo.svg" alt="header-logo">
-          </a>
-        </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__list-item menu__list-item--active" data-tab="1">
-              <a class="menu__link" href="#">Подобрать квартиру</a>
-            </li>
-            <li class="menu__list-item" data-tab="2">
-              <a class="menu__link" href="#">Забронировать квартиру</a>
-            </li>
-            <li class="menu__list-item" data-tab="3">
-              <a class="menu__link" href="#">Ход строительства</a>
-            </li>
-            <li class="menu__list-item" data-tab="4">
-              <a class="menu__link" href="#">Проектная деклорация</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="contacts">
-          <span class="contacts__text">Закажите звонок:</span>
-          <a class="contacts__tel" href="#">8 (843) 123-45-67</a>
+  <div class="wrapper"> 
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <a class="header__logo-link" href="#">
+              <img src="images/header-logo.svg" alt="header-logo">
+            </a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item menu__list-item--active" id="first-item" data-tab="1">
+                <a class="menu__link" href="#">Подобрать квартиру</a>
+              </li>
+              <li class="menu__list-item" data-tab="2">
+                <a class="menu__link" id="overlay-show" href="#">Забронировать квартиру</a>
+              </li>
+              <li class="menu__list-item" data-tab="3">
+                <a class="menu__link" href="#">Ход строительства</a>
+              </li>
+              <li class="menu__list-item" data-tab="4">
+                <a class="menu__link" href="#">Проектная деклорация</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <span class="contacts__text">Закажите звонок:</span>
+            <a class="contacts__tel" href="#">8 (843) 123-45-67</a>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <div class="wrapper">
     <main class="main">
       <div class="container">
         <div class="main__inner">
@@ -109,10 +109,49 @@
     </footer>
   </div>
 
-  <div class="modal">
-    <div class="container">
-      <div class="modal__inner">
-        
+  <div class="overlay overlay-hidden">
+    <div class="modal">
+      <button class="modal__close"></button>
+      <div class="floor-layout">
+        <h4 class="floor-layout__title">Этаж 7</h4>
+        <div class="floor-layout__box">
+          <img class="floor-layout__img" src="images/floor-layout.png" alt="layout">
+        </div>
+      </div>
+      <div class="choice-apart">
+        <div class="choice-apart__title">Выберите квартиру</div>
+        <ul class="choice-apart__list">
+          <li class="choice-apart__item">
+            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+          <li class="choice-apart__item">
+            <a class="choice-apart__link" href="#">кв.40. 2 комн. 50 кв.м.</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
