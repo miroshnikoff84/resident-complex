@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a class="header__logo-link" href="#">
+            <img src="images/header-logo.svg" alt="header-logo">
+          </a>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item menu__list-item--active" data-tab="1">
+              <a class="menu__link" href="#">Подобрать квартиру</a>
+            </li>
+            <li class="menu__list-item" data-tab="2">
+              <a class="menu__link" href="#">Забронировать квартиру</a>
+            </li>
+            <li class="menu__list-item" data-tab="3">
+              <a class="menu__link" href="#">Ход строительства</a>
+            </li>
+            <li class="menu__list-item" data-tab="4">
+              <a class="menu__link" href="#">Проектная деклорация</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="contacts">
+          <span class="contacts__text">Закажите звонок:</span>
+          <a class="contacts__tel" href="#">8 (843) 123-45-67</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <main class="main">
+      <div class="container">
+        <div class="main__inner">
+          <div class="canvas">
+            <img class="canvas__img" src="images/canvas.png" alt="canvas">
+          </div>
+          <div class="select">
+            <h3 class="select__title">Выберите желаемый этаж</h3>
+            <div class="select__floor">
+              <div class="btn-up"></div>
+              <div class="number-floor">07</div>
+              <div class="btn-down"></div>
+            </div>
+            <button class="select__btn-view">Смотреть квартиры на этаже</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__left-side">
+            <a class="footer__logo-link" href="#">
+              <img class="footer__logo" src="images/footer-logo.svg" alt="f_logo">
+            </a>
+            <div class="footer__contacts">
+              <span class="footer__contacts-text">Закажите звонок:</span>
+              <a class="footer__contacts-tel" href="#">8 (843) 123-45-67</a>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img src="images/vk.svg" alt="vk" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img src="images/insta.svg" alt="insta" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img src="images/twit.svg" alt="twitter" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <img src="images/youtube.svg" alt="youtube" class="footer__social-icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="footer__right-side">
+            <li><a class="footer__rs-link" href="#">Политика конфиденциальности</a></li>
+            <li><a class="footer__rs-link" href="#">Публичная оферта</a></li>
+            <li><a class="footer__rs-link" href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="modal">
+    <div class="container">
+      <div class="modal__inner">
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
