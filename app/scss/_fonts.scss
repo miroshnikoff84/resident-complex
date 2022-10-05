@@ -1,4 +1,7 @@
 @font-face {
-    font-family: 'BebasNeue';
-    src: url('../fonts/bebasneuecyrillic.ttf') format('ttf');
-  }
+  font-family: 'Bebas Neue Cyrillic';
+  src: local('Bebas Neue Cyrillic'), local('BebasNeueCyrillic'),
+      url('../fonts/BebasNeueCyrillic.woff2') format('woff2'),
+      url('../fonts/BebasNeueCyrillic.woff') format('woff');
+  font-display: swap;
+}
