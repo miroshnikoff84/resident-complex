@@ -26,7 +26,7 @@
                 <a class="menu__link" href="#">Подобрать квартиру</a>
               </li>
               <li class="menu__list-item" data-tab="2">
-                <a class="menu__link" id="overlay-show" href="#">Забронировать квартиру</a>
+                <a class="menu__link" href="#">Забронировать квартиру</a>
               </li>
               <li class="menu__list-item" data-tab="3">
                 <a class="menu__link" href="#">Ход строительства</a>
@@ -47,8 +47,8 @@
     <main class="main">
       <div class="container">
         <div class="main__inner">
-          <div class="canvas">
-            <svg width="734" height="640" viewBox="0 0 734 640" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <div class="canvas__inner">
+            <svg class="canvas" width="734" height="640" viewBox="0 0 734 640" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <rect width="734" height="640" fill="url(#pattern0)"/>
               <defs>
               <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -56,23 +56,23 @@
               </pattern>
               <image id="image0_1_86" width="740" height="640" xlink:href="images/canvas.png"/>
               </defs>
-              <path d="M222 532L442.8 540L512 526.3V548L443.5 567.7L222 556.7V532Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M223 531V506L443.3 509.3L513 506V526L443.7 539L223 531Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M223 505V480H444H513V503L445 510L223 505Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M223 481V456L444.3 452.3L512 459V481H444" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M223 455V429L444.5 425.7L513 436.7V458L444 451.3L223 455Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 428V404.3L443 392L514 415V436.3L443 424L222 428Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 406V381L444.2 364.7L514 393.3V414L443.7 392.3L222 406Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 381V356L444.5 335.7L514 372.3V393L442 364.3L222 381Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 355V331L445 306.3L514 350.3V372L444.7 334L222 355Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 330V306L444.5 277.3L514 328.3V349L443.7 306.7L222 330Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M221 306V282L443.3 249L514 308.3V328L444 277.3L221 306Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 281V257L443.2 222L513 286V307L444.3 248.7L222 281Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 257V232L444.3 194L513 264.3V285L444 221L222 257Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 231V206L442.8 162.3L513 241.3V264L444 190.7L222 231Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M223 207V182L443 134L513 219V242L442.3 162.7L223 207Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 182V157L441.8 105L513 197.3V220L443.3 133.7L222 182Z" fill="#3595F6" fill-opacity="0.75"/>
-              <path d="M222 157V131L444 74.3L513 176V197L443.7 105.3L222 157Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="02" d="M222 532L442.8 540L512 526.3V548L443.5 567.7L222 556.7V532Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="03" d="M223 531V506L443.3 509.3L513 506V526L443.7 539L223 531Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="04" d="M223 505V480H444H513V503L445 510L223 505Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="05" d="M223 481V456L444.3 452.3L512 459V481H444" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="06" d="M223 455V429L444.5 425.7L513 436.7V458L444 451.3L223 455Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="07" d="M222 428V404.3L443 392L514 415V436.3L443 424L222 428Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="08" d="M222 406V381L444.2 364.7L514 393.3V414L443.7 392.3L222 406Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="09" d="M222 381V356L444.5 335.7L514 372.3V393L442 364.3L222 381Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="10" d="M222 355V331L445 306.3L514 350.3V372L444.7 334L222 355Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="11" d="M222 330V306L444.5 277.3L514 328.3V349L443.7 306.7L222 330Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="12" d="M221 306V282L443.3 249L514 308.3V328L444 277.3L221 306Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="13" d="M222 281V257L443.2 222L513 286V307L444.3 248.7L222 281Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="14" d="M222 257V232L444.3 194L513 264.3V285L444 221L222 257Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="15" d="M222 231V206L442.8 162.3L513 241.3V264L444 190.7L222 231Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="16" d="M223 207V182L443 134L513 219V242L442.3 162.7L223 207Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="17" d="M222 182V157L441.8 105L513 197.3V220L443.3 133.7L222 182Z" fill="#3595F6" fill-opacity="0.75"/>
+              <path class="overlay-show" data-floor="18" d="M222 157V131L444 74.3L513 176V197L443.7 105.3L222 157Z" fill="#3595F6" fill-opacity="0.75"/>
               
               </svg>
         </div>
@@ -80,10 +80,10 @@
           <h5 class="select__title">Выберите желаемый этаж</h5>
           <div class="select__floor">
             <div class="btn-up"></div>
-            <div class="number-floor">07</div>
+            <div class="number-floor">02</div>
             <div class="btn-down"></div>
           </div>
-          <button class="select__btn-view">Смотреть квартиры на этаже</button>
+          <button class="select__btn-view overlay-show">Смотреть квартиры на этаже</button>
         </div>
       </div>
     </main>
@@ -132,52 +132,161 @@
     </footer>
   </div>
 
-  <div class="overlay overlay-hidden">
-    <div class="modal">
-      <button class="modal__close"></button>
+  <div class="overlay d-hidden close"></div>
+    <div class="modal d-hidden">
+      <button class="modal__close close"></button>
       <div class="floor-layout">
         <h4 class="floor-layout__title">Этаж 7</h4>
-        <div class="floor-layout__box">
-          <img class="floor-layout__img" src="images/floor-layout.png" alt="layout">
+        <div class="floor-layout__inner">
+          <svg width="433" height="408" viewBox="0 0 433 408" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="433" height="408" fill="url(#pattern1)"/>
+            <defs>
+            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_24_7" transform="scale(0.00230947 0.00245098)"/>
+            </pattern>
+            <filter id="filter0_d_24_7" x="41" y="199" width="129" height="83" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <filter id="filter1_d_24_7" x="24" y="252" width="146" height="149" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <filter id="filter2_d_24_7" x="263" y="252" width="146" height="149" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <filter id="filter3_d_24_7" x="263" y="200" width="129" height="76" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <filter id="filter4_d_24_7" x="213" y="264" width="86" height="139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <filter id="filter5_d_24_7" x="134" y="264" width="87" height="139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <filter id="filter6_d_24_7" x="263" y="141.5" width="129" height="71.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <filter id="filter7_d_24_7" x="242" y="16" width="167" height="141" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <filter id="filter8_d_24_7" x="24" y="16" width="165" height="137" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_7"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_7" result="shape"/>
+            </filter>
+            <image id="image0_24_7" width="433" height="408" xlink:href="images/floor-layout.png"/>
+            </defs>
+            <path class="" data-apartpath="1" d="M248 33H313.5H340V16H405V81H388V141.5H368.154H314V149H267V132H247V65H246V33H248Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            <path class="" data-apartpath="2" d="M314 141.5H388V146H387L387 205H368.154V200H267V149H314V141.5Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            <path class="" data-apartpath="3" d="M314 252V268H388V263H387V205H368.154V200H267V252H314Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            <path class="" data-apartpath="4" d="M295 376H339V393H405V328H388V268H314V252H267V275V309H295V376Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            <path class="" data-apartpath="5" d="M245 264H217V395H260V376H295V309H267V275H245V264Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            <path class="" data-apartpath="6" d="M188 264H217V395H173V376H138V309H166V275H188V264Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            <path class="" data-apartpath="7" d="M138 376H93V393H28V328H45V274H119V252H166V275V309H138V376Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            <path class="" data-apartpath="8" d="M119 274H45V227H48V199H166V252H119V274Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            <path class="" data-apartpath="9" d="M125 117H45V171H48V199H166V145H125V117Z" fill="#3595F6" fill-opacity="0.75"/>
+            <path class="" data-apartpath="10" d="M185 33H118H93V16H28V81H45V117H61.8798H125V145H163V142V131H185V33Z" fill="#3595F6" fill-opacity="0.75" shape-rendering="crispEdges"/>
+            </svg>
+            
         </div>
       </div>
       <div class="choice-apart">
         <div class="choice-apart__title">Выберите квартиру</div>
         <ul class="choice-apart__list">
           <li class="choice-apart__item">
-            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link choice-apart__link--sold" href="#" data-apart="1">кв.<p class="number-apart"></p>, 3 комн. 75.2 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link" href="#" data-apart="2">кв.<p class="number-apart"></p>, Студия 29.9 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link choice-apart__link--sold" href="#" data-apart="3">кв.<p class="number-apart"></p>, Студия 32.3 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link choice-apart__link--sold" href="#" data-apart="4">кв.<p class="number-apart"></p>, 2 комн. 58.4 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link" href="#" data-apart="5">кв.<p class="number-apart"></p>, 1 комн. 35.8 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link choice-apart__link--sold" href="#" data-apart="6">кв.<p class="number-apart"></p>, 1 комн. 35.8 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link choice-apart__link--sold" href="#" data-apart="7">кв.<p class="number-apart"></p>, 2 комн. 56 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link choice-apart__link--sold" href="#" data-apart="8">кв.<p class="number-apart"></p>, 1 комн. 35.9 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link choice-apart__link--sold" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link choice-apart__link--sold" href="#" data-apart="9">кв.<p class="number-apart"></p>, 1 комн. 38.9 кв. м.</a>
           </li>
           <li class="choice-apart__item">
-            <a class="choice-apart__link" href="#">кв.40. 2 комн. 50 кв.м.</a>
+            <a class="choice-apart__link" href="#" data-apart="10">кв.<p class="number-apart"></p>, 2 комн. 64.5 кв. м.</a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
+  
 
   <script src="js/main.min.js"></script>
 </body>

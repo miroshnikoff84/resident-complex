@@ -220,10 +220,6 @@
     font-family: 'Roboto';
 }
 
-.overlay-hidden {
-    display: none;
-}
-
 .overlay {
     position: fixed;
     width: 100%;
@@ -319,3 +315,35 @@
         cursor: default;
     }
 }
+
+.d-hidden {
+    display: none;
+}
+
+.canvas path{
+    opacity: 0;
+    cursor: pointer;
+    &:hover{
+        opacity: 1;
+    }
+}
+path.current-floor{
+    opacity: 1;
+}
+
+.floor-layout__inner path{
+    opacity: 0;
+    cursor: pointer;
+    &:hover{
+        opacity: 1;
+    }
+}
+path.current-apart{
+    opacity: 1;
+}
+
+.number-apart{
+    display: inline;
+}
+
+
