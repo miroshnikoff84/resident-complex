@@ -70,7 +70,10 @@ $(function () {
         $('.overlay').addClass('d-hidden');
         $('.modal').addClass('d-hidden');
         apart.removeClass('current-apart');
-        
+        floor.removeClass('current-apart');
+        currentFloor = 2;
+        currentApart = 1;
+
     });
 
 
@@ -91,5 +94,6 @@ $(function () {
         $(`[data-apartpath=${usCurrentApart}]`).toggleClass('current-apart');
 
     });
+    
 
 });
